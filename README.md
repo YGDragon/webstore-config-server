@@ -1,2 +1,1 @@
-# webstore-config-server
-Сonfiguration of a distributed application "Web store"
+Сonfiguration of a distributed application "Web store of products"
