@@ -1,17 +1,17 @@
-#spring:
- # cloud:
-  #  openfeign:
-   #   client:
-    #    config:
-     #     billing:
-      #      url: http://localhost:8765/
-       #   storage:
-        #    url: http://localhost:8765/
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          billing:
+            url: http://localhost:8765/billing
+          storage:
+            url: http://localhost:8765/storage
 
-#api:
- # basic-uri:
-  #  storage: http://localhost:8765/storage/
-   # billing: http://localhost:8765/billing/
+api:
+  basic-uri:
+    storage: http://localhost:8765/storage/
+    billing: http://localhost:8765/billing/
 
 shop:
   account:
