@@ -11,7 +11,7 @@ spring:
 api:
   basic-uri:
     storage: http://localhost:8765/storage/
-    payment: http://localhost:8765/billing/
+    billing: http://localhost:8765/billing/
 
 shop:
   account:
