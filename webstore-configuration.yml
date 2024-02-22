@@ -3,15 +3,15 @@ spring:
     openfeign:
       client:
         config:
-          payment:
+          billing:
             url: http://localhost:8765/billing
           storage:
             url: http://localhost:8765/storage
 
-api:
-  basic-uri:
-    storage: http://localhost:8765/storage/
-    payment: http://localhost:8765/billing/
+#api:
+#  basic-uri:
+#    storage: http://localhost:8765/storage/
+#    billing: http://localhost:8765/billing/
 
 shop:
   account:
