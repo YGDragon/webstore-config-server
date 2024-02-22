@@ -4,9 +4,9 @@ spring:
       client:
         config:
           billing:
-            url: http://localhost:8765/
+            url: http://localhost:8765
           storage:
-            url: http://localhost:8765/
+            url: http://localhost:8765
 
 #api:
 #  basic-uri:
